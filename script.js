@@ -24,10 +24,6 @@ invia.addEventListener("click", function () {
   // sovrascrittura nuova lista
   document.getElementById("elenco").innerHTML = lista;
 
+  document.getElementById("posizione").innerHTML = "Ti trovi alla posizione numero: " + [lista.indexOf(cognome) + 1];
 
-  // for (var i = 0; i < lista.length; i++) {
-  //   while (true) {
-  //
-  //   }
-  // }
 });
